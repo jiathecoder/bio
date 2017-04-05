@@ -1,0 +1,162 @@
+﻿html {
+background-color:	#f2f2f2;  
+}
+body {
+margin: 0 auto;
+font-family:'open sans', sans-serif;
+font-size:13px;
+-webkit-font-smoothing:antialised;
+max-width: 800px;
+padding:15px;
+background-color: #ffffff;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+header .personal_info {
+background-color:#f2f2f2;
+border-left: 5px solid #006dcc;
+border-right: 5px solid #006dcc;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:15px;
+padding-right:15px;
+}
+.personal_name{
+color:#006dcc;
+font-size:14px;
+font-weight: :600;
+text-transform: uppercase;
+}
+.contact{
+color:#C52229;
+font-weight: 500;
+}
+.email{
+float:right;
+color:#006dcc;
+font-size:13px;
+}
+.personal_email a:hover{
+color:#c52229;
+}
+h4{
+font-size:16px;
+font-weight: :600;
+text-transform: uppercase;
+color:#006dcc;
+text-decoration: none;
+margin-top: :5px;
+margin-bottom: 5px;
+}
+h5{
+font-size:14px;
+font-weight: :300;
+text-transform: uppercase;
+color:#c52229;
+text-decoration: none;
+padding-top:0px;
+padding-bottom: 0px;
+margin-top: :5px;
+margin-bottom: 5px;
+}
+ul {
+list-style: none;
+margin-left: 0;
+padding-left: 1.2em;
+text-indent: -1.2em;
+}
+
+li:before {
+content: "►";
+display: block;
+float: left;
+width: 1.2em;
+color: #777;
+padding-left: 10px;
+}
+.summary ul{
+background-color:#f2f2f2;
+border-left: 5px solid #5cb85c;
+border-right: 5px solid #5cb85c;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:15px;
+padding-right:15px;
+}
+
+.summary ul li{
+color:#333;
+padding-top:5px;
+padding-bottom: :5px;
+}
+
+.skill{
+background-color:#f2f2f2;
+border-left: 5px solid #5cb85c;
+border-right: 5px solid #5cb85c;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:15px;
+padding-right:15px;
+}
+.skill_title{
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 500;
+color: #777;
+padding-left: 10px;
+}
+.skill_type{
+font-size:14px;
+font-weight:bold;
+color:#000;
+padding-left:35px;
+}
+.edu li{
+padding-top:5px;
+padding-bottom: :5px;
+}
+
+.edu{
+background-color:#f2f2f2;
+border-left: 5px solid #f0ad4e;
+border-right: 5px solid #f0ad4e;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:15px;
+padding-right:15px;
+}
+.client_title{
+background-color:#f2f2f2;
+border-left: 5px solid #5dc0de;
+border-right: 5px solid #5dc0de;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:15px;
+padding-right:15px;
+text-transform: uppercase;
+font-weight:bold;
+color:#c52229;
+}
+.client_job_des ul li{
+padding-top:5px;
+padding-bottom:5px;
+}
+.description{
+text-transform: uppercase;
+font-size:14px;
+font-weight: bold;
+}
+.panel-info{
+border-color:#5dc0de;
+}
+.panel-warning{
+border-color:#f0ad4e;
+}
+.panel-success{
+border-color:#5cb85c;
+}
